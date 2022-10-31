@@ -34,13 +34,13 @@ body {
   margin: 0 auto 0;
 }
 
-.task {
+.task-item {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task-row {
+.add-task_row {
   display: flex;
 }
 ul {
@@ -141,13 +141,13 @@ li >  input[type="text"] {
   width: 226px;
 }
 
-.delete img {
+.task-delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.delete img:hover {
+.task-delete img:hover {
   transform: rotateZ(0);
 }
 
